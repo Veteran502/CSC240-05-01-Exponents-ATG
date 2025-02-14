@@ -71,7 +71,12 @@ namespace Exponents
             UxOutputLabel.Text = "";
 
             // turn the output to invisible
+
+            UxOutputLabel.Visible = false;
+
             // turn the Go button back on
+
+            UxGoButton.Enabled = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
